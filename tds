@@ -1,0 +1,10 @@
+# Input principal amount, rate of interest, and number of years
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest (in percentage): "))
+years = int(input("Enter the number of years: "))
+
+# Calculate simple interest using the formula (P * R * T) / 100
+simple_interest = (principal * rate * years) / 100
+
+# Display the result
+print("Simple interest:", simple_interest)
